@@ -1,0 +1,14 @@
+Laravel passpoert
+-------------------------
+-> we need to add manually in composer.json file "laravel/passport": "^11.0", nad after fire composer update command
+->   // config/app.php
+
+'providers' =>[
+ Laravel\Passport\PassportServiceProvider::class,
+ ],
+ 
+ =>
+ php artisan passport:install
+ 
+ 
+ https://www.codesolution.co.in/detail/post/create-a-secure-crud-restful-api-in-laravel-8-using-passport
